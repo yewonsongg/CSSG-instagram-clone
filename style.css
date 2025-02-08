@@ -1,0 +1,82 @@
+.profile {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, sans-serif;
+    display: grid;
+    grid-template-areas:
+        "pfp user follow message"
+        "pfp posts followers following"
+        "pfp name name name"
+        "pfp bio bio bio";
+    grid-template-columns: 220px 100px 100px 1fr;
+    grid-template-rows: 30px 30px auto auto; /* Allow name and bio to expand */
+    /*margin: 7.5px;*/
+    padding: 10px;
+
+    gap: 5px; /* Optional spacing */
+}
+
+.pfp {
+    grid-area: pfp;
+}
+
+.user {
+    grid-area: user;
+}
+
+.follow {
+    grid-area: follow;
+}
+
+.message {
+    grid-area: message;
+}
+
+.posts {
+    grid-area: posts;
+}
+
+.followers {
+    grid-area: followers;
+}
+
+.following {
+    grid-area: following;
+}
+
+.name {
+    grid-area: name;
+}
+
+.bio {
+    grid-area: bio;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 210px 210px 210px;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.one {
+    margin: 5px;
+}
+
+.two {
+    margin: 5px;
+}
+
+.three {
+    margin: 5px;
+}
+
+.four {
+    margin: 5px;
+}
+
+.five {
+    margin: 5px;
+}
